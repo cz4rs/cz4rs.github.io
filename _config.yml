@@ -1,25 +1,32 @@
-# Dependencies
-highlighter:      rouge
-
 # Permalinks
-permalink:        pretty
+permalink:           pretty
 
 # Setup
-title:            Personal page
-tagline:          'A personal page'
-description:      'Somethin something personal page.'
-url:              https://cz4rs.github.io/
-baseurl:          /
+title:               Personal page
+tagline:             A personal page
+description:         >
+  Something something
+  personal page
+url:                 https://cz4rs.github.io/
+paginate:            5
+baseurl:             ""
 
+# Assets
+sass:
+  style:            :compressed
+
+# About/contact
 author:
-  name:           'Cz4rs'
-  url:            https://cz4rs.github.io/
-
-paginate:         5
+  name:              Cz4rs
+  url:               https://cz4rs.cz4rs
+  email:             cz4rs@cz4rs.com
 
 # Custom vars
-version:          2.1.0
-gems: [jekyll-paginate]
-
+version:             2.1.0
 github:
-  repo:           https://gitub.com
+  repo:              https://github.com/poole/hyde
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
