@@ -4,7 +4,6 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Personal page
@@ -15,7 +14,7 @@ baseurl:          /
 
 author:
   name:           'Cz4rs'
-  url:            https://twitter.com/mdo
+  url:            https://cz4rs.github.io/
 
 paginate:         5
 
